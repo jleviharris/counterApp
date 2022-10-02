@@ -46,3 +46,8 @@
 .counter {
   font-size: 3rem;
 }
+@media screen and (max-width: 700px) {
+  .container {
+    width: auto;
+  }
+}
