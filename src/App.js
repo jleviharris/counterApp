@@ -16,27 +16,29 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Counter App</h1>
-      <div className="counter">{counter}</div>
+      <div className="container">
+        <h1>Counter App</h1>
+        <div className="counter">{counter}</div>
 
-      <br />
-      <ul>
-        <li>
-          <button className="subtractBttn" onClick={subtract}>
-            SUBTRACT
-          </button>
-        </li>
-        <li>
-          <button className="resetBttn" onClick={reset}>
-            RESET
-          </button>
-        </li>
-        <li>
-          <button className="addBttn" onClick={add}>
-            ADD
-          </button>
-        </li>
-      </ul>
+        <br />
+        <ul>
+          <li>
+            <button className="subtractBttn" onClick={subtract}>
+              SUBTRACT
+            </button>
+          </li>
+          <li>
+            <button className="resetBttn" onClick={reset}>
+              RESET
+            </button>
+          </li>
+          <li>
+            <button className="addBttn" onClick={add}>
+              ADD
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
